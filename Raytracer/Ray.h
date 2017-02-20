@@ -1,6 +1,6 @@
 #pragma once
 #include <glm/glm.hpp>
-#include "../Image_IO_Test/Mesh.h"
+#include "Mesh.h"
 
 
 class Ray

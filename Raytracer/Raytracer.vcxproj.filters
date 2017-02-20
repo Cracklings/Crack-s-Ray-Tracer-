@@ -35,12 +35,18 @@
     <ClCompile Include="..\Image_IO_Test\Mesh.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Crack%27s Ray Tracer\Raytracer\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Crack%27s Ray Tracer\Raytracer\Ray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Image_IO_Test\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Crack%27s Ray Tracer\Raytracer\Scene.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

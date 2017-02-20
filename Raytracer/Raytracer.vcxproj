@@ -69,11 +69,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Crack%27s Ray Tracer\Raytracer\Scene.cpp" />
     <ClCompile Include="..\Image_IO_Test\Mesh.cpp" />
     <ClCompile Include="..\..\Crack%27s Ray Tracer\Raytracer\Ray.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Crack%27s Ray Tracer\Raytracer\Scene.h" />
     <ClInclude Include="..\Image_IO_Test\Mesh.h" />
     <ClInclude Include="..\..\Crack%27s Ray Tracer\Raytracer\Ray.h" />
   </ItemGroup>
