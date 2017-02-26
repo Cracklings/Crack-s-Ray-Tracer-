@@ -28,8 +28,3 @@ glm::float64_t Mesh::Radius() const
 	return _radius;
 }
 
-bool Mesh::Intersects(const Ray& ray) const
-{
-	glm::float64_t t{ glm::length(glm::cross(ray.Origin() - _position, ray.Direction())) / glm::length(ray.Direction()) };
-	return t > _radius ? false : true;
-}

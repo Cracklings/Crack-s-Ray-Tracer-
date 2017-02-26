@@ -14,10 +14,9 @@ public:
 	glm::vec3 Origin() const;
 	glm::vec3 Direction() const;
 
-	bool intersects(const Mesh&);
+	bool intersects(const Mesh&) const;
 private:
 	glm::vec3 _origin;
 	glm::vec3 _direction;
 	
 };
-

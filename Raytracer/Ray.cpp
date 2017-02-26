@@ -26,7 +26,8 @@ glm::vec3 Ray::Direction() const
 	return _direction;
 }
 
-bool Ray::intersects(const Mesh& mesh)
+bool Ray::intersects(const Mesh& mesh) const
 {
-	return mesh.Intersects(*this);
+	glm::float64_t t{ glm::length(glm::cross(this->_origin - mesh.Position(), this->_direction)) / glm::length(this->_direction) };
+	return t > mesh.Radius() ? false : true;
 }
